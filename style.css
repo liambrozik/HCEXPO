@@ -1,11 +1,15 @@
 body {
     height: 1200vh;
     width: 100vw;
+    overflow: scroll;
 }
 #i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9, #i10, #i11, #i0 {
     position: relatve;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
     background-repeat: none;
     width: 100%;
