@@ -1,0 +1,92 @@
+body {
+    height: 1200vh;
+    width: 100vw;
+}
+#i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9, #i10, #i11, #i0 {
+    position: relatve;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: none;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+}
+#i1 {
+    background-image: url("imgs/HCIntro.00_00_23_03.Still015.jpg");
+}
+
+#i2 {
+    background-image: url("imgs/HCIntro.00_00_23_04.Still016.jpg");
+}
+
+#i3 {
+    background-image: url("imgs/HCIntro.00_00_23_05.Still017.jpg");
+}
+
+#i4 {
+    background-image: url("imgs/HCIntro.00_00_23_06.Still018.jpg");
+}
+
+#i5 {
+    background-image: url("imgs/HCIntro.00_00_23_07.Still019.jpg");
+}
+
+#i6 {
+    background-image: url("imgs/HCIntro.00_00_23_08.Still020.jpg");
+}
+
+#i7 {
+    background-image: url("imgs/HCIntro.00_00_23_09.Still021.jpg");
+}
+
+#i8 {
+    background-image: url("imgs/HCIntro.00_00_23_10.Still022.jpg");
+}
+
+#i9 {
+    background-image: url("imgs/HCIntro.00_00_23_11.Still023.jpg");
+}
+
+#i10 {
+    background-image: url("imgs/HCIntro.00_00_23_12.Still024.jpg");
+}
+
+#i11 {
+    background-color: black;
+    color: white;
+    height: 105vh;
+    text-align: center;
+}
+
+#i11 iframe {
+    margin-top: 25vh;
+}
+
+#i0 {
+    padding-top: 40vh;
+    height: 60vh;
+    text-align: center;
+    background-color: white;
+    color: black;
+    
+}
+
+#i0 p, #i0 a {
+
+}
+
+#i0 i {
+    font-size: 24px;
+    padding-top: 5px;
+    animation-name: arrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrow {
+    0% {padding-top: 5px;}
+    50% {padding-top: 30px;}
+    100% {padding-top: 5px;}
+}
